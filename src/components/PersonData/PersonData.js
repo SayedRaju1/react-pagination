@@ -1,7 +1,7 @@
 import React from 'react';
 import { Table } from 'react-bootstrap';
 
-const PersonData = ({ personData, loading }) => {
+const PersonData = ({ personData }) => {
     const renderPersonData = (person, index) => {
         return (
             <tr key={index}>
