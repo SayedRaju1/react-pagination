@@ -12,7 +12,7 @@ const Pagination = ({ dataPerPage, totalData, paginate, nextBtn, previousBtn, cu
             <ul className='pagination'>
                 {pageNumbers.map(number => (
                     <li key={number} className='page-item'>
-                        <a className={`page-link  ${currentPage === number ? 'bg-dark text-white font-weight-bold' : 'text-dark'}`} onClick={() => paginate(number)} href='!#'>
+                        <a className={`page-link  ${currentPage === number ? 'bg-dark text-white font-weight-bold' : 'text-dark'}`} onClick={() => paginate(number)} href='#'>
                             {number}
                         </a>
                     </li>
